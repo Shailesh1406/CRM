@@ -21,6 +21,7 @@ public class CrmController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
     public String viewPage(Model model) {
+		System.out.println("hello**************************");
         return "home_page";
 	}
 	
@@ -42,5 +43,5 @@ public class CrmController {
         
         return "display_page";
     }
-
+ 
 }
